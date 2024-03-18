@@ -1,0 +1,14 @@
+C:\Users\20082\Desktop\програмування\myFirstGame\myFirstGame\myFirstGame\myFirstGame\bin\Debug\net6.0\myFirstGame.exe
+C:\Users\20082\Desktop\програмування\myFirstGame\myFirstGame\myFirstGame\myFirstGame\bin\Debug\net6.0\myFirstGame.deps.json
+C:\Users\20082\Desktop\програмування\myFirstGame\myFirstGame\myFirstGame\myFirstGame\bin\Debug\net6.0\myFirstGame.runtimeconfig.json
+C:\Users\20082\Desktop\програмування\myFirstGame\myFirstGame\myFirstGame\myFirstGame\bin\Debug\net6.0\myFirstGame.dll
+C:\Users\20082\Desktop\програмування\myFirstGame\myFirstGame\myFirstGame\myFirstGame\bin\Debug\net6.0\myFirstGame.pdb
+C:\Users\20082\Desktop\програмування\myFirstGame\myFirstGame\myFirstGame\myFirstGame\obj\Debug\net6.0\myFirstGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\20082\Desktop\програмування\myFirstGame\myFirstGame\myFirstGame\myFirstGame\obj\Debug\net6.0\myFirstGame.AssemblyInfoInputs.cache
+C:\Users\20082\Desktop\програмування\myFirstGame\myFirstGame\myFirstGame\myFirstGame\obj\Debug\net6.0\myFirstGame.AssemblyInfo.cs
+C:\Users\20082\Desktop\програмування\myFirstGame\myFirstGame\myFirstGame\myFirstGame\obj\Debug\net6.0\myFirstGame.csproj.CoreCompileInputs.cache
+C:\Users\20082\Desktop\програмування\myFirstGame\myFirstGame\myFirstGame\myFirstGame\obj\Debug\net6.0\myFirstGame.dll
+C:\Users\20082\Desktop\програмування\myFirstGame\myFirstGame\myFirstGame\myFirstGame\obj\Debug\net6.0\refint\myFirstGame.dll
+C:\Users\20082\Desktop\програмування\myFirstGame\myFirstGame\myFirstGame\myFirstGame\obj\Debug\net6.0\myFirstGame.pdb
+C:\Users\20082\Desktop\програмування\myFirstGame\myFirstGame\myFirstGame\myFirstGame\obj\Debug\net6.0\myFirstGame.genruntimeconfig.cache
+C:\Users\20082\Desktop\програмування\myFirstGame\myFirstGame\myFirstGame\myFirstGame\obj\Debug\net6.0\ref\myFirstGame.dll
