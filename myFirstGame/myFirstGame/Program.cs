@@ -13,26 +13,55 @@ namespace myFirstGame
             string nickname = Console.ReadLine();
             Console.WriteLine($"{nickname}, how old are you?");
             int age = int.Parse(Console.ReadLine());
-            if (age >= 12) 
+            if (age < 12) 
             {
+                Console.WriteLine("The application can be used from 12 years old!");
+                Console.WriteLine($"Goodbye {nickname}");
+                return;
+            } 
+           // else Console.WriteLine("The application can be used from 12 years old!");
+
+            Console.WriteLine("OK!");
+            Console.WriteLine($"\nYour stats for this run:");
+            Console.WriteLine($"Nic: {nickname}");
+            Console.WriteLine($"Age: {age}");
+            Console.WriteLine($"Number of rounds played: {roundsPlayed}");
+            Console.WriteLine($"Number of wins: {victories}");
+            bool yesNo = true;
+            while (yesNo)
+            {
+                Console.WriteLine("you vona go?\npress 'Yes'or'No' ");
+                string choose = Console.ReadLine().ToLower();
+                if (choose != "yes")
+                {
+                    Console.WriteLine("Goodbye");
+                    break;
+                }
+                //yesNo = choose.ToLower() != "yes" ? true : false;
                 Console.WriteLine("OK!");
                 Console.WriteLine($"\nYour stats for this run:");
                 Console.WriteLine($"Nic: {nickname}");
                 Console.WriteLine($"Age: {age}");
                 Console.WriteLine($"Number of rounds played: {roundsPlayed}");
                 Console.WriteLine($"Number of wins: {victories}");
-                YesNo();
-            } 
-            else Console.WriteLine("The application can be used from 12 years old!");
+            }
+
+
+
         }
-        private static void YesNo()
+        /*private static void YesNo()
         {
             bool yesNo = true;
             while (yesNo)
             {
-                Console.WriteLine("you vona go?\npress 'Y'or'N' ");
-                string choose = Console.ReadLine();
-                yesNo = choose.ToLower() == "yes" ? true : false;
+                Console.WriteLine("you vona go?\npress 'Yes'or'No' ");
+                string choose = Console.ReadLine().ToLower();
+                if (choose != "yes")
+                {
+                    Console.WriteLine("Goodbye");
+                    break;
+                }
+                //yesNo = choose.ToLower() != "yes" ? true : false;
             }
         }
 
