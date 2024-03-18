@@ -2,15 +2,21 @@
 
 namespace myFirstGame
 {
+    enum WeaponTyp
+    {
+        ROCK = 1, SCISSORS, PAPER
+    }
     class mainClass
     {
-        static int roundsPlayed = 0;
-        static int victories = 0;
 
         public static void Main(string[] args)
         {
+            int roundsPlayed = 0;
+            int victories = 0;
+
             Console.WriteLine("Hi, what is your nicname?");
             string nickname = Console.ReadLine();
+
             Console.WriteLine($"{nickname}, how old are you?");
             int age = int.Parse(Console.ReadLine());
             if (age < 12) 
@@ -19,7 +25,6 @@ namespace myFirstGame
                 Console.WriteLine($"Goodbye {nickname}");
                 return;
             } 
-           // else Console.WriteLine("The application can be used from 12 years old!");
 
             Console.WriteLine("OK!");
             Console.WriteLine($"\nYour stats for this run:");
@@ -27,6 +32,9 @@ namespace myFirstGame
             Console.WriteLine($"Age: {age}");
             Console.WriteLine($"Number of rounds played: {roundsPlayed}");
             Console.WriteLine($"Number of wins: {victories}");
+
+            Random randomGenerator = new Random();
+
             bool yesNo = true;
             while (yesNo)
             {
@@ -37,44 +45,28 @@ namespace myFirstGame
                     Console.WriteLine("Goodbye");
                     break;
                 }
-                //yesNo = choose.ToLower() != "yes" ? true : false;
-                Console.WriteLine("OK!");
-                Console.WriteLine($"\nYour stats for this run:");
-                Console.WriteLine($"Nic: {nickname}");
-                Console.WriteLine($"Age: {age}");
-                Console.WriteLine($"Number of rounds played: {roundsPlayed}");
-                Console.WriteLine($"Number of wins: {victories}");
-            }
-
-
-
-        }
-        /*private static void YesNo()
-        {
-            bool yesNo = true;
-            while (yesNo)
-            {
-                Console.WriteLine("you vona go?\npress 'Yes'or'No' ");
-                string choose = Console.ReadLine().ToLower();
-                if (choose != "yes")
+                for ( int round = 1; round <=3; round++)
                 {
-                    Console.WriteLine("Goodbye");
-                    break;
+                    Console.WriteLine("Choose your weapon type Rock-1, Scissors-2, Paper-3 press number: ");
+                    int userChoice =int.Parse(Console.ReadLine());
+
+                    WeaponTyp numWeapon;
+                    numWeapon = (WeaponTyp)userChoice;
+
+                    WeaponTyp compWeapon = (WeaponTyp)randomGenerator.Next(1,4);
+
+                    if((userChoice>=1)&& (userChoice <= 3))
+                    {
+                        Console.WriteLine($"User {nickname} chose {numWeapon}");
+                        Console.WriteLine($"Comp chose {compWeapon}");
+                    }
                 }
-                //yesNo = choose.ToLower() != "yes" ? true : false;
             }
+
+
+
         }
 
-
-        /*private static void YesNo()
-        {
-            bool yesNo = true;
-            while (yesNo)
-            {
-                Console.WriteLine("you vona go? 'Yes' or 'No'");
-                yesNo = Console.ReadLine() == "y" ? true : false;
-            }
-        }*/
     }
 }
 
