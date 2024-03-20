@@ -39,8 +39,10 @@ namespace myFirstGame
             bool yesNo = true;
             while (yesNo)
             {
+                Console.WriteLine("_____________________________________________________________");
                 Console.WriteLine("you vona go?\npress 'Yes'or'No' ");
                 string choose = Console.ReadLine().ToLower();
+                Console.WriteLine("_____________________________________________________________");
                 if (choose != "yes")
                 {
                     Console.WriteLine("Goodbye");
@@ -63,6 +65,7 @@ namespace myFirstGame
                     if(numWeapon == compWeapon)
                     {
                         Console.WriteLine("It`s a tie");
+                        Console.WriteLine("_____________________________________________________________");
                     }
                     else if((numWeapon == WeaponTyp.ROCK && compWeapon == WeaponTyp.SCISSORS) ||
                             (numWeapon == WeaponTyp.SCISSORS && compWeapon == WeaponTyp.PAPER) ||
@@ -72,17 +75,19 @@ namespace myFirstGame
                         victories++;
                         wins++;
                         Queen();
+                        Console.WriteLine("_____________________________________________________________");
                     }
                     else
                     {
                         Console.WriteLine("you lose");
                         lose++;
                         Death();
+                        Console.WriteLine("_____________________________________________________________");
                     }
                     roundsPlayed++;
                 }
 
-                if(victories == 3 || (victories == 2 && victories == 1))
+                if(wins == 2 || (wins == 2 && wins == 3))
                 {
                     Console.WriteLine("*********************************************");
                     Console.WriteLine("I knew YOU were CAPABLE of something!");

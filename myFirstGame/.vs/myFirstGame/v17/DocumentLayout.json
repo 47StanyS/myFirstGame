@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\20082\\Desktop\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\myFirstGame\\myFirstGame\\myFirstGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B320316B-5D23-43E2-AD26-7E64937F0B68}|myFirstGame\\myFirstGame.csproj|c:\\users\\20082\\desktop\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\myfirstgame\\myfirstgame\\myfirstgame\\myfirstgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B320316B-5D23-43E2-AD26-7E64937F0B68}|myFirstGame\\myFirstGame.csproj|solutionrelative:myfirstgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 184,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\20082\\Desktop\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\myFirstGame\\myFirstGame\\myFirstGame\\myFirstGame\\Program.cs",
+              "RelativeDocumentMoniker": "myFirstGame\\Program.cs",
+              "ToolTip": "C:\\Users\\20082\\Desktop\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\myFirstGame\\myFirstGame\\myFirstGame\\myFirstGame\\Program.cs",
+              "RelativeToolTip": "myFirstGame\\Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwEMAAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T09:38:18.025Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 46,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
