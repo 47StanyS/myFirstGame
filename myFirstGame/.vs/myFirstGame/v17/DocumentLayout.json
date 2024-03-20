@@ -28,7 +28,11 @@
               "RelativeDocumentMoniker": "myFirstGame\\Program.cs",
               "ToolTip": "C:\\Users\\20082\\Desktop\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\myFirstGame\\myFirstGame\\myFirstGame\\myFirstGame\\Program.cs",
               "RelativeToolTip": "myFirstGame\\Program.cs",
+<<<<<<< HEAD
               "ViewState": "AQIAACIAAAAAAAAAAAAAAC0AAADDAAAA",
+=======
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAABrAAAA",
+>>>>>>> main
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-18T09:38:18.025Z",
               "EditorCaption": ""
