@@ -31,6 +31,7 @@ namespace myFirstGame
             {
                 Console.WriteLine("Oh, you need to grow up.\nThe application can be used from 12 years old!");
                 Console.WriteLine($"Goodbye {nickname}");
+                Console.ReadLine();
                 return;
             }
             Console.WriteLine("Ouuu, you’re NOT as YOUNG as you seem at first glance.\nHere, take this book, it will come in handy on your adventure.");
@@ -45,7 +46,7 @@ namespace myFirstGame
                 Console.WriteLine("_____________________________________________________________");
                 if (choose != "yes")
                 {
-                    Console.WriteLine($"Farewell, dear, {nickname},just RETuRN the BOOK I gave you, and go on your way in good health \n'{nickname}' AHAHHAH what's your name AHAHHA\noh i can't :P");
+                    Console.WriteLine($"Farewell, dear, {nickname},just RETURN the BOOK I gave you, and go on your way in good health \n'{nickname}' AHAHHAH what's your name AHAHHA\noh i can't :P");
                     break;
                 }
                 for ( int round = 1; round <=3; round++)
@@ -87,7 +88,7 @@ namespace myFirstGame
                     roundsPlayed++;
                 }
 
-                if(wins == 2 || (wins == 2 && wins == 3))
+                if(wins >= 2)
                 {
                     Console.WriteLine("*********************************************");
                     Console.WriteLine("I knew YOU were CAPABLE of something!");
