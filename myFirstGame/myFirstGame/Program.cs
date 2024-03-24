@@ -44,7 +44,7 @@ namespace myFirstGame
                 Console.WriteLine("you vona go?\npress 'Yes'or'No' ");
                 string choose = Console.ReadLine().ToLower();
                 Console.WriteLine("_____________________________________________________________");
-                if (choose != "yes")
+                if (choose != "yes")    
                 {
                     Console.WriteLine($"Farewell, dear, {nickname},just RETURN the BOOK I gave you, and go on your way in good health \n'{nickname}' AHAHHAH what's your name AHAHHA\noh i can't :P");
                     break;
