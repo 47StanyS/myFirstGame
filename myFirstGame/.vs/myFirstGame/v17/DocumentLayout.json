@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\20082\\Desktop\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\myFirstGame\\myFirstGame\\myFirstGame\\",
+  "WorkspaceRootPath": "C:\\Users\\20082\\Desktop\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\\u041F\u0417_1\\myFirstGame\\myFirstGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B320316B-5D23-43E2-AD26-7E64937F0B68}|myFirstGame\\myFirstGame.csproj|c:\\users\\20082\\desktop\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\myfirstgame\\myfirstgame\\myfirstgame\\myfirstgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B320316B-5D23-43E2-AD26-7E64937F0B68}|myFirstGame\\myFirstGame.csproj|c:\\users\\20082\\desktop\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\\u043F\u0437_1\\myfirstgame\\myfirstgame\\myfirstgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B320316B-5D23-43E2-AD26-7E64937F0B68}|myFirstGame\\myFirstGame.csproj|solutionrelative:myfirstgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,17 +24,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\20082\\Desktop\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\myFirstGame\\myFirstGame\\myFirstGame\\myFirstGame\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\20082\\Desktop\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\\u041F\u0417_1\\myFirstGame\\myFirstGame\\myFirstGame\\Program.cs",
               "RelativeDocumentMoniker": "myFirstGame\\Program.cs",
-              "ToolTip": "C:\\Users\\20082\\Desktop\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\myFirstGame\\myFirstGame\\myFirstGame\\myFirstGame\\Program.cs",
+              "ToolTip": "C:\\Users\\20082\\Desktop\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\\u041F\u0417_1\\myFirstGame\\myFirstGame\\myFirstGame\\Program.cs",
               "RelativeToolTip": "myFirstGame\\Program.cs",
-<<<<<<< HEAD
-              "ViewState": "AQIAACIAAAAAAAAAAAAAAC0AAADDAAAA",
-=======
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAABrAAAA",
->>>>>>> main
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAgAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T09:38:18.025Z",
+              "WhenOpened": "2024-03-24T10:40:44.962Z",
               "EditorCaption": ""
             }
           ]
