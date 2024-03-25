@@ -47,6 +47,7 @@ namespace myFirstGame
                 if (choose != "yes")    
                 {
                     Console.WriteLine($"Farewell, dear, {nickname},just RETuRN the BOOK I gave you, and go on your way in good health \n'{nickname}' AHAHHAH what's your name AHAHHA\noh i can't :P");
+                    Console.ReadLine();
                     break;
                 }
                 for ( int round = 1; round <=3; round++)
